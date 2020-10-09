@@ -1,6 +1,6 @@
-Feature: Mekan tests
+Feature: Blog-Post tests
 
-  @Mek
+#  @Mek
   Scenario: Sign In
     Given I am on the MekanHomePage page
     Then I click on userNameInput
@@ -24,7 +24,7 @@ Feature: Mekan tests
     Then I click on submitButton
     Then I wait for 5000 milliseconds
 
-  @Mek
+#  @Mek
   Scenario: Deleting a Post
     Given I am on the MekanHomePage page
     Then I click on userNameInput

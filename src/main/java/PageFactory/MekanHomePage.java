@@ -24,7 +24,7 @@ public class MekanHomePage {
     @FindBy(how = How.XPATH, using = "//*[@id=\"root\"]/div[2]/form/input[2]")
     public static WebElement submitButton;
 
-    @FindBy(how = How.XPATH, using = "//*[@id=\"root\"]/div[2]/div[1]/span[2]/button[1]")
+    @FindBy(how = How.XPATH, using = "//*[@id=\"root\"]/div[2]/div[4]/span[2]/button[1]")
     public static WebElement deleteButton;
 
     @FindBy(how = How.XPATH, using = "//*[@id=\"root\"]/div[2]/div[1]/span[2]/button[2]")
